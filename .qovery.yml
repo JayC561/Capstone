@@ -1,0 +1,11 @@
+---
+application:
+  name: "capstone"
+  project: "quaker-app"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-capstone"
+  routes:
+  - application_name: "capstone"
+    paths:
+    - "/*"
